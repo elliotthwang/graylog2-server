@@ -122,7 +122,7 @@ public class UsersResourceTest {
 
     private CreateUserRequest buildCreateUserRequest() {
         return CreateUserRequest.create(USERNAME, PASSWORD, EMAIL,
-                                        FIRST_NAME, LAST_NAME, FULL_NAME, Collections.singletonList(""),
+                                        FIRST_NAME, LAST_NAME, Collections.singletonList(""),
                                         TIMEZONE, SESSION_TIMEOUT,
                                         startPage, Collections.emptyList());
     }
